@@ -21,16 +21,25 @@
 }
 
 .btn {
-    display: flex;
+    display: inline-block;
     background-color: #e50914;
     padding: 7px 17px;
     font-weight: 400;
     font-size: 1rem; /* copied from netflix */
     color: white;
     border-radius: 3px; /* how rounded we make the corners of the box */
-    margin-left: 45%;
-    margin-right: 45%;
-    justify-content: space-evenly;
+    text-align: center;
+    margin: auto;
+}
 
+.btn_box {
+    display: flex;
+}
+.main-header {
+    color: green;
+}
 
+@import url("fonts/icons.css");
+.icon{
+    color:white;
 }
