@@ -1,0 +1,36 @@
+* {
+    background-color: black;
+    text-decoration: none;
+}
+
+.container {
+    background-color: blue;
+}
+
+.title {
+    font-size: 24pt;
+    font-family: 'Times New Roman', Times, serif;
+    color: green;
+    text-align: center;
+}
+
+.description {
+    font-size: 8pt;
+    font-weight: bold;
+    color: cadetblue;
+}
+
+.btn {
+    display: flex;
+    background-color: #e50914;
+    padding: 7px 17px;
+    font-weight: 400;
+    font-size: 1rem; /* copied from netflix */
+    color: white;
+    border-radius: 3px; /* how rounded we make the corners of the box */
+    margin-left: 45%;
+    margin-right: 45%;
+    justify-content: space-evenly;
+
+
+}
